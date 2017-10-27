@@ -1,0 +1,67 @@
+/*Detial page */
+
+fieldset{
+    border: 1px solid #39ac6b;
+    border-radius: 20px;
+}
+fieldset legend {
+    text-align: center;
+    color: #39ac6b;
+}
+.mainDetial{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    /*margin-top: 50px;*/
+    /*background-color: grey;*/
+}
+.mainDetialPicture{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+    /*background-color: red;*/
+}
+.mainDetialPicture img {
+    width: 150px;
+    height: 200px;
+    /*padding: 20px;*/
+}
+.mainDetialText{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    float: right;
+    margin-top: 20px;
+    /*background-color: green;*/
+}
+.mainDetialText table{
+    padding: 20px;
+}
+.mainDetialText table tr td{
+    padding: 5px;
+}
+.productSpecific h3{
+    text-align: center;
+    color: white ;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    background-color: #39ac6b;
+}
+.detailSpecific{
+    width: 100%;
+    margin-top: 10px;
+    /*height: 300px;*/
+    /*background-color: red;*/
+}
+.detailSpecific td{
+    padding-left: 15px;
+}
+.detailSpecific tr:nth-last-child(even){
+    background-color: whitesmoke;
+}
+.detailSpecific table tr td {
+    border-color: #39ac6b;
+    padding: 10px;
+}

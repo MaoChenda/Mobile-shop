@@ -1,0 +1,109 @@
+.shopName{
+    width: 570px;
+    height: 70px;
+    /*background-color: #333333;*/
+    margin: auto;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+}
+
+/*.completeForm{*/
+    /*width: 570px;*/
+    /*height: 530px;*/
+    /*background-color: snow;*/
+    /*margin: auto;*/
+    /*box-shadow: gainsboro 1px 1px 1px 1px;*/
+    /*background-image: url('PictureMobileShop/backgroudUserAthenticate/background1.png');*/
+/*}*/
+
+input[type="email"]{
+    width: 80%;
+    padding: 10px 10px;
+    margin-left: 90px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    background-color: snow;
+}
+
+input[type="password"]{
+    width: 80%;
+    padding: 10px 10px;
+    margin-left: 90px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    background-color: snow;
+}
+input[type="checkbox"]{
+    width: auto;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+p:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+button{
+    padding: 10px 10px;
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #2aabd2;
+}
+
+#rcorners {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 190px;
+    line-height: 1px;
+    margin-top: 50px;
+}
+
+
+.footer{
+    width: 1348px;
+    height: 50px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 300px;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    line-height: 50px;
+    display: block;
+    color: #2aabd2;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+
+}
+li a:hover{
+    text-decoration: underline;
+    color: blue;
+}

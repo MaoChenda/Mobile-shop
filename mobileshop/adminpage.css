@@ -1,0 +1,67 @@
+.adminHeader{
+    margin-top: -20px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70px;
+    background-color:  #53c685;
+}
+.adminHeader h3{
+    margin-left: 20px;
+    color: white;
+    line-height: 70px;
+
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+    margin-left: -10px;
+}
+.user-profile img{
+    width: 90px;
+    height: 90px;
+    margin-left: 120px;
+}
+.user-name{
+    text-align: center;
+}
+.user-email{
+    text-align: center;
+}
+.user-menu{
+    margin-top: 30px;
+}
+.user-menu .nav > li > a:hover,
+.user-menu .nav > li > a:focus {
+    text-decoration: none;
+    background-color:  gainsboro;
+    border-left: 3px solid red;
+    color: blue;
+}
+.user-menu ul li a{
+    color: blue;
+}
+.footer{
+    margin-top: 380px;
+    border-top: 1px solid grey;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*left side*/
+.left-side{
+    background-color: #fff;
+}
+.buttonChoice{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.nameType{
+    color: crimson;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 40px;
+}
